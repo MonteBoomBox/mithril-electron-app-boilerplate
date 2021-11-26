@@ -1,0 +1,19 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack ./index.js --output-path bin --output-filename app.js --watch --mode development",
+    "startElectron": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^16.0.2",
+    "mithril": "^2.0.4",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
